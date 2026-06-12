@@ -36,7 +36,7 @@ Mantenha as migrações antigas como parte do projeto!
 * um novo desenvolvedor pode executar todas as migrações em ordem pra chegar no esquema atual do banco.
 
 ### Goose
-Goose é uma migração para banco de dados. No projeto, as migrations são mantidas na pasta `sql`.
+Goose é uma ferramenta de migração para banco de dados. No projeto, as migrations são mantidas na pasta `sql`.
 * `goose --env ./.dev.env create <nome_do_arquivo> sql` cria uma migration com o nome.
 * `goose --env ./.dev.env up` aplica todas as migrations até a mais recente.
 * `goose --env ./.dev.env reset` desfaz todas as migrations.
