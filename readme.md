@@ -11,7 +11,7 @@ Transmateus é uma empresa de transporte rodoviário de passageiros fundada em 2
 O desenvolvedor deve editar o arquivo de variáveis de ambiente de acordo com sua configuração pessoal. Remova `.example` do nome do arquivo em seguida.
 
 ### Dependências
-Enquanto não usamos Docker para agrupar todas a dependências manualmente, precisamos instalar elas uma a uma.
+Enquanto não usamos Docker para agrupar todas a dependências automaticamente, precisamos instalar elas uma a uma.
 * Compilador de Go <https://go.dev/>
 * PostgreSQL <https://www.postgresql.org/>
 * NodeJS <https://nodejs.org/pt-br> (opcional)
