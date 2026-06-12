@@ -10,6 +10,12 @@ Transmateus é uma empresa de transporte rodoviário de passageiros fundada em 2
 
 O desenvolvedor deve editar o arquivo de variáveis de ambiente de acordo com sua configuração pessoal. Remova `.example` do nome do arquivo em seguida.
 
+### Dependências
+Enquanto não usamos Docker para agrupar todas a dependências manualmente, precisamos instalar elas uma a uma.
+* Compilador de Go <https://go.dev/>
+* PostgreSQL <https://www.postgresql.org/>
+* NodeJS <https://nodejs.org/pt-br> (opcional)
+
 ## Migração
 Em banco de dados, migração é o mecanismo que controla e aplica mudanças na estrutura do banco de dados de forma organizada e versionada.
 
