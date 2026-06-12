@@ -1,5 +1,5 @@
 # Transmateus
-Transmateus é uma empresa de transporte rodoviário de passageiros fundada em 2008 por Mateus Filipe. Foi adquirida em 2023 pela Sapiência Digital, fundada por Brenda Ponath, João Vitor Rocha e Thiago Gomes. Hoje, a Transmateus passa por uma _transição_ para o mundo digital.
+A Transmateus é uma empresa de transporte rodoviário de passageiros fundada em 2008 por Mateus Filipe. Adquirida em 2023 pela Sapiência Digital, companhia criada por Brenda Ponath, João Vitor Rocha e Thiago Gomes, a transportadora passa atualmente por um processo de _transição_ para o mercado digital.
 
 ## Estrutura do projeto
 * `/src` código do servidor
