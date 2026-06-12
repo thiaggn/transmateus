@@ -42,3 +42,6 @@ Goose é uma migração para banco de dados. No projeto, as migrations são mant
 * `goose --env ./.dev.env reset` desfaz todas as migrations.
 * `goose --env ./.dev.env redo` desfaz e refaz a última migration criada.
 * `goose --env ./.dev.env version` diz a versão do estado atual do banco.
+
+Pode ser instalado via linha de comando:
+```go install github.com/pressly/goose/v3/cmd/goose@latest```
