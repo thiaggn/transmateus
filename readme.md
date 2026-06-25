@@ -10,7 +10,7 @@ A Transmateus é uma plataforma centralizada de venda de passagens rodoviárias,
 * `/sql` migrations (modelagem do banco)
 * `/web` página web
 * `/scripts` scripts operacionais e de desenvolvimento
-* `/.dev.env.example` variáveis de ambiente do desenvolvedor.
+* `/.env.example` variáveis de ambiente do desenvolvedor
 
 O desenvolvedor deve editar o arquivo de variáveis de ambiente de acordo com sua configuração pessoal. Remova `.example` do nome do arquivo em seguida.
 
