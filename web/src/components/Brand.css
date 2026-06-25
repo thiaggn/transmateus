@@ -1,0 +1,21 @@
+.brand {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	color: var(--white);
+	user-select: none;
+
+	.name {
+		font-size: 42px;
+		height: 32px;
+		line-height: 32px;
+		font-family: "Genos";
+		font-weight: 500;
+	}
+
+	.icon {
+		font-size: 32px;
+		color: inherit;
+		flex-shrink: 0;
+	}
+}

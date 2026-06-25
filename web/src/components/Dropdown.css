@@ -1,0 +1,27 @@
+.dropdown {
+	font-weight: 500;
+	corner-shape: var(--corner-shape);
+	border-radius: var(--corner-radius);
+	padding: 8px 12px;
+	cursor: pointer;
+
+	&:hover {
+		background: var(--shadow-soft);
+	}
+
+	> .inner {
+		gap: 8px;
+		display: flex;
+		align-items: center;
+		height: 24px;
+
+		.icon {
+			font-size: 24px;
+		}
+
+		.down {
+			color: darkgray;
+			font-size: 18px;
+		}
+	}
+}

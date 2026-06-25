@@ -1,0 +1,19 @@
+.soft-button {
+	height: fit-content;
+	cursor: pointer;
+
+	&:hover {
+		color: gray;
+	}
+
+	> .inner {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		height: 24px;
+
+		.icon {
+			font-size: 24px;
+		}
+	}
+}

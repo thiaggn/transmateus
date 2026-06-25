@@ -1,0 +1,60 @@
+.main-header {
+	--banner-height: 200px;
+
+	.self {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.banner {
+		background-image: url("/busao.jpg");
+		background-size: cover;
+		background-position-y: bottom;
+		height: var(--banner-height);
+		width: 100%;
+	}
+
+	.group {
+		margin-top: calc(-1 * var(--banner-height) + 64px);
+
+		> .self > .row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.login-button {
+				color: var(--white);
+				font-weight: 500;
+				font-size: 1.6rem;
+				padding: 16px 32px;
+				backdrop-filter: blur(10px);
+				background: var(--glow);
+				border-radius: 50px;
+			}
+		}
+	}
+
+	.search-area {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		width: 100%;
+		padding: 24px 32px 32px 32px;
+		corner-shape: var(--corner-shape);
+		border-radius: var(--corner-radius);
+		border: 1px solid var(--shadow);
+		background-color: var(--white);
+
+		.row {
+			display: flex;
+			gap: 8px;
+		}
+
+		.row.third {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+}

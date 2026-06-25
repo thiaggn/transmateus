@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+	font-size: 10px;
+	font-family: sans-serif;
+
+	--white: #efefef;
+	--glow: #ffffff1c;
+	--shadow: #00000021;
+	--shadow-soft: #00000010;
+	--corner-shape: squircle;
+	--corner-radius: 42px;
+	--safe-area-width: 1280px;
+}
+
+body {
+	font-size: 1.4rem;
+	background-color: var(--white);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	box-sizing: border-box;
+	background: unset;
+	border: unset;
+	outline: unset;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	> .inner {
+		max-width: var(--safe-area-width);
+		margin: 0 32px;
+		width: 100%;
+	}
+}

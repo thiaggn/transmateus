@@ -1,0 +1,21 @@
+.calendar-input {
+	height: 64px;
+	background-color: var(--shadow-soft);
+	border-radius: var(--corner-radius);
+	corner-shape: var(--corner-shape);
+	width: 100%;
+	display: flex;
+	padding: 0 16px;
+	align-items: center;
+
+	.label {
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.icon {
+		font-size: 24px;
+		color: black;
+		flex-shrink: 0;
+	}
+}

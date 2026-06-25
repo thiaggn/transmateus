@@ -1,0 +1,40 @@
+.black-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 64px;
+	min-width: 64px;
+	background-color: black;
+	color: var(--white);
+	border-radius: var(--corner-radius);
+	corner-shape: var(--corner-shape);
+	font-weight: 500;
+	user-select: none;
+	cursor: pointer;
+	transition: 200ms;
+
+	&:hover {
+		.icon {
+			transform: translateY(-2px);
+		}
+
+		.label {
+			transform: translateY(-1px);
+		}
+	}
+
+	.icon {
+		font-size: 24px;
+		flex-shrink: 0;
+		transition: 200ms;
+	}
+
+	.label {
+		transition: 200ms;
+	}
+
+	&.labeled {
+		corner-shape: unset;
+		padding: 0 24px;
+	}
+}
