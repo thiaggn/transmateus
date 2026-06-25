@@ -32,6 +32,7 @@ create table logistica.paradas (
 	viacao_id      int8  not null references logistica.viacoes(id),
 	rota_id        int8  not null references logistica.rotas(id),
 	destino_id     int8  not null references logistica.destinos(id),
+	distancia      int8  not null,
 	horario        time  not null,
 	dia_da_semana  int4  not null
 );
