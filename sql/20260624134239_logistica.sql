@@ -39,7 +39,7 @@ create table logistica.paradas (
 
 create table logistica.reservas (
 	id             int8           primary key,
-	passageiro_id  int8           not null references auth.usuarios(id),
+	passageiro_id  int8           not null references logistica.passageiros(id),
 	rota_id        int8           not null references logistica.rotas(id),
 	viacao_id      int8           not null references logistica.viacoes(id),
 	data           tsrange        not null,
@@ -49,7 +49,7 @@ create table logistica.reservas (
 );
 
 create table logistica.embarques (
-	passageiro_id  int8       not null references auth.usuarios(id),
+	passageiro_id  int8       not null references logistica.passageiros(id),
 	reserva_id     int8       not null references logistica.reservas(id),
 	data           timestamp  not null,
 
@@ -57,7 +57,7 @@ create table logistica.embarques (
 );
 
 create table logistica.cancelamentos (
-	passageiro_id  int8       not null references auth.usuarios(id),
+	passageiro_id  int8       not null references logistica.passageiros(id),
 	reserva_id     int8       not null references logistica.reservas(id),
 	viacao_id      int8       not null references logistica.viacoes(id),
 	data           timestamp  not null,
