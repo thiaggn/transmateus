@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=logo.png" alt="TransMateus">
+  <img src="logo.png" alt="TransMateus">
 </p>
 
 # Transmateus
