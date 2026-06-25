@@ -19,7 +19,8 @@ create table auth.usuarios (
 	senha     char(255)   not null,
 	nome      varchar     not null,
 
-	constraint login_unico_por_papel unique(papel_id, login)
+	constraint login_unico_por_papel unique(papel_id, login),
+	constraint um_papel_por_usuario unique (id, papel_id)
 );
 
 create table auth.sessoes (
